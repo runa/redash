@@ -18,6 +18,12 @@ $ bin/run ./manage.py ds new -n {name} -t {type} -o {options}
 If you omit any of the options (-n, -t, -o) it will show a prompt asking for it. Options is a JSON string with the connection parameters.
 Unless you're doing some sort of automation, it's probably easier to leave it empty and fill out the prompt.
 
+##### Example
+```bash
+$ bin/run ./manage.py ds new -n "ds-name" -t mysql -o '{"user":"redash","passwd":"foobarbaz","host":"10.125.18.148","db":"ds_db"}'
+
+```
+
 #### Version 0.5 and older
 
 ```bash
