@@ -142,3 +142,4 @@ Notes:
 2. All scripts must be executable, otherwise results won't return
 3. The script data source does not allow relative paths in the form of "../". You may use a relative sub path such as "./mydir/myscript".
 4. All scripts must output to the standard output the supported [results JSON format]({% post_url 2015-02-19-8-json-format %}) and only that, otherwise the data source will not be able to load the data.
+5. 
